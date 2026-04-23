@@ -8,8 +8,7 @@ class SumaTest(unittest.TestCase):
     """ Docstring class """
 
     def test1(self):
-        """ Docstring def
-        """
+        """ Docstring def """
         res = suma(1, 5)
         self.assertEqual(res, 6)
 
@@ -20,5 +19,5 @@ class SumaTest(unittest.TestCase):
 
     def test3(self):
         """ Esta prueba DEBE FALLAR"""
-        res = suma("1", "4")
+        res = suma(1, 4)
         self.assertEqual(res, 5)
