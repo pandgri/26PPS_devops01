@@ -1,3 +1,5 @@
+""" Docstring del módulo """
+
 import unittest
 from app import suma
 
