@@ -19,5 +19,5 @@ class SumaTest(unittest.TestCase):
 
     def test3(self):
         """ Esta prueba DEBE FALLAR"""
-        res = suma("1", "4")
+        res = suma(1, 4)
         self.assertEqual(res, 5)
