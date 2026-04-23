@@ -33,4 +33,4 @@ jobs:
         pylint $(git ls-files '*.py')
     # Añadido para hacer testing
     - name: Run Python unit tests
-      run: python3 -u -m unittest discover
+      run: python3 -u -m unittest discover -s miapp
